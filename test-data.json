@@ -1,0 +1,1635 @@
+{
+  "testSets": [
+    {
+      "setName": "Cambridge 19 - Test 1",
+      "listening": {
+        "title": "Listening",
+        "timeLimit": 2400,
+        "parts": [
+          {
+            "partTitle": "PART 1, Questions 1–10",
+            "audio": "audio/Test1_Part1.mp3",
+            "type": "html_template",
+            "instructions": "Complete the notes below.<br>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.",
+            "html_template": "<h3>Hinchingbrooke Country Park</h3>\n<h4>The park</h4>\n<p>Area: <strong>1</strong> [BLANK_1] hectares</p>\n<p>Habitats: wetland, grassland and woodland</p>\n<p>Wetland: lakes, ponds and a <strong>2</strong> [BLANK_2]</p>\n<p>Wildlife includes birds, insects and animals</p>\n<h4>Subjects studied in educational visits include</h4>\n<p>Science: Children look at <strong>3</strong> [BLANK_3] about plants, etc.</p>\n<p>Geography: includes learning to use a <strong>4</strong> [BLANK_4] and compass</p>\n<p>History: changes in land use</p>\n<p>Leisure and tourism: mostly concentrates on the park's <strong>5</strong> [BLANK_5]</p>\n<p>Music: Children make <strong>6</strong> [BLANK_6] with natural materials, and experiment with rhythm and speed.</p>\n<h4>Benefits of outdoor educational visits</h4>\n<p>They give children a feeling of <strong>7</strong> [BLANK_7] that they may not have elsewhere.</p>\n<p>Children learn new <strong>8</strong> [BLANK_8] and gain self-confidence.</p>\n<h4>Practical issues</h4>\n<p>Cost per child: £<strong>9</strong> [BLANK_9]</p>\n<p>Adults, such as <strong>10</strong> [BLANK_10] free</p>",
+            "questions": [
+              {
+                "id": 1,
+                "answer": ""
+              },
+              {
+                "id": 2,
+                "answer": ""
+              },
+              {
+                "id": 3,
+                "answer": ""
+              },
+              {
+                "id": 4,
+                "answer": ""
+              },
+              {
+                "id": 5,
+                "answer": ""
+              },
+              {
+                "id": 6,
+                "answer": ""
+              },
+              {
+                "id": 7,
+                "answer": ""
+              },
+              {
+                "id": 8,
+                "answer": ""
+              },
+              {
+                "id": 9,
+                "answer": ""
+              },
+              {
+                "id": 10,
+                "answer": ""
+              }
+            ]
+          },
+          {
+            "partTitle": "PART 2, Questions 11–20",
+            "audio": "audio/Test1_Part2.mp3",
+            "instructions": "Stanthorpe Twinning Association",
+            "questions": [
+              {
+                "id": 11,
+                "type": "single_question_list",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "questionText": "During the visit to Malatte, in France, members especially enjoyed",
+                "options": [
+                  "A. going to a theme park.",
+                  "B. experiencing a river trip.",
+                  "C. visiting a cheese factory."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 12,
+                "type": "single_question_list",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "questionText": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
+                "options": [
+                  "A. A tree will be planted.",
+                  "B. A garden seat will be bought.",
+                  "C. A footbridge will be built."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 13,
+                "type": "single_question_list",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "questionText": "Which event raised most funds this year?",
+                "options": [
+                  "A. the film show",
+                  "B. the pancake evening",
+                  "C. the cookery demonstration"
+                ],
+                "answer": ""
+              },
+              {
+                "id": 14,
+                "type": "single_question_list",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "questionText": "For the first evening with the French visitors host families are advised to",
+                "options": [
+                  "A. take them for a walk round the town.",
+                  "B. go to a local restaurant.",
+                  "C. have a meal at home."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 15,
+                "type": "single_question_list",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "questionText": "On Saturday evening there will be the chance to",
+                "options": [
+                  "A. listen to a concert.",
+                  "B. watch a match.",
+                  "C. take part in a competition."
+                ],
+                "answer": ""
+              },
+              {
+                "id": [
+                  16,
+                  17,
+                  18,
+                  19,
+                  20
+                ],
+                "type": "matching_inline",
+                "instructions": "Label the map below. Write the correct letter, A–H, next to Questions 16–20.",
+                "options": [
+                  {
+                    "value": "A",
+                    "text": "A"
+                  },
+                  {
+                    "value": "B",
+                    "text": "B"
+                  },
+                  {
+                    "value": "C",
+                    "text": "C"
+                  },
+                  {
+                    "value": "D",
+                    "text": "D"
+                  },
+                  {
+                    "value": "E",
+                    "text": "E"
+                  },
+                  {
+                    "value": "F",
+                    "text": "F"
+                  },
+                  {
+                    "value": "G",
+                    "text": "G"
+                  },
+                  {
+                    "value": "H",
+                    "text": "H"
+                  }
+                ],
+                "matching_questions": [
+                  {
+                    "id": 16,
+                    "questionText": "Farm shop",
+                    "answer": ""
+                  },
+                  {
+                    "id": 17,
+                    "questionText": "Disabled entry",
+                    "answer": ""
+                  },
+                  {
+                    "id": 18,
+                    "questionText": "Adventure playground",
+                    "answer": ""
+                  },
+                  {
+                    "id": 19,
+                    "questionText": "Kitchen gardens",
+                    "answer": ""
+                  },
+                  {
+                    "id": 20,
+                    "questionText": "The Temple of the Four Winds",
+                    "answer": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "partTitle": "PART 3, Questions 21–30",
+            "audio": "audio/Test1_Part3.mp3",
+            "instructions": "Questions 21–30",
+            "questions": [
+              {
+                "id": [
+                  21,
+                  22
+                ],
+                "type": "single_question_list",
+                "multiSelect": true,
+                "instructions": "Questions 21 and 22: Choose TWO letters, A–E.<br>Which TWO things did Colin find most satisfying about his bread reuse project?",
+                "options": [
+                  "A. receiving support from local restaurants",
+                  "B. finding a good way to prevent waste",
+                  "C. overcoming problems in a basic process",
+                  "D. experimenting with designs and colours",
+                  "E. learning how to apply 3-D printing"
+                ],
+                "answer": []
+              },
+              {
+                "id": [
+                  23,
+                  24
+                ],
+                "type": "single_question_list",
+                "multiSelect": true,
+                "instructions": "Questions 23 and 24: Choose TWO letters, A–E.<br>Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+                "options": [
+                  "A. for use on medical products",
+                  "B. to show that food is no longer fit to eat",
+                  "C. for use with drinks as well as foods",
+                  "D. to provide applications for blind people",
+                  "E. to indicate the weight of certain foods"
+                ],
+                "answer": []
+              },
+              {
+                "id": [
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30
+                ],
+                "type": "matching_inline",
+                "instructions": "Questions 25–30: What is the students’ opinion about each of the following food trends? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "options": [
+                  {
+                    "value": "A",
+                    "text": "This is only relevant to young people."
+                  },
+                  {
+                    "value": "B",
+                    "text": "This may have disappointing results."
+                  },
+                  {
+                    "value": "C",
+                    "text": "This already seems to be widespread."
+                  },
+                  {
+                    "value": "D",
+                    "text": "Retailers should do more to encourage this."
+                  },
+                  {
+                    "value": "E",
+                    "text": "More financial support is needed for this."
+                  },
+                  {
+                    "value": "F",
+                    "text": "Most people know little about this."
+                  },
+                  {
+                    "value": "G",
+                    "text": "There should be stricter regulations about this."
+                  },
+                  {
+                    "value": "H",
+                    "text": "This could be dangerous."
+                  }
+                ],
+                "matching_questions": [
+                  {
+                    "id": 25,
+                    "questionText": "Use of local products",
+                    "answer": ""
+                  },
+                  {
+                    "id": 26,
+                    "questionText": "Reduction in unnecessary packaging",
+                    "answer": ""
+                  },
+                  {
+                    "id": 27,
+                    "questionText": "Gluten-free and lactose-free food",
+                    "answer": ""
+                  },
+                  {
+                    "id": 28,
+                    "questionText": "Use of branded products related to celebrity chefs",
+                    "answer": ""
+                  },
+                  {
+                    "id": 29,
+                    "questionText": "Development of ‘ghost kitchens’ for takeaway food",
+                    "answer": ""
+                  },
+                  {
+                    "id": 30,
+                    "questionText": "Use of mushrooms for common health concerns",
+                    "answer": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "partTitle": "PART 4, Questions 31–40",
+            "audio": "audio/Test1_Part4.mp3",
+            "type": "html_template",
+            "instructions": "Complete the notes below.<br>Write <strong>ONE WORD ONLY</strong> for each answer.",
+            "html_template": "<h3>Céide Fields</h3>\n<p><em>an important Neolithic archaeological site in the northwest of Ireland</em></p>\n<h4>Discovery</h4>\n<ul>\n<li>In the 1930s, a local teacher realised that stones beneath the bog surface were once <strong>31</strong> [BLANK_31].</li>\n<li>His <strong>32</strong> [BLANK_32] became an archaeologist and undertook an investigation of the site:</li>\n<li style='list-style:none; margin-left:1em;'>– a traditional method used by local people to dig for <strong>33</strong> [BLANK_33] was used to identify where stones were located</li>\n<li style='list-style:none; margin-left:1em;'>– carbon dating later proved the site was Neolithic.</li>\n<li>Items are well preserved in the bog because of a lack of <strong>34</strong> [BLANK_34].</li>\n</ul>\n<h4>Neolithic farmers</h4>\n<ul>\n<li>Houses were <strong>35</strong> [BLANK_35] in shape and had a hole in the roof.</li>\n<li>Neolithic innovations include: cooking indoors; pots used for storage and to make <strong>36</strong> [BLANK_36].</li>\n<li>Each field at Céide was large enough to support a big <strong>37</strong> [BLANK_37].</li>\n<li>The fields were probably used to restrict the grazing of animals – no evidence of structures to house them during <strong>38</strong> [BLANK_38].</li>\n</ul>\n<h4>Reasons for the decline in farming</h4>\n<ul>\n<li>a decline in <strong>39</strong> [BLANK_39] quality</li>\n<li>an increase in <strong>40</strong> [BLANK_40]</li>\n</ul>",
+            "questions": [
+              {
+                "id": 31,
+                "answer": ""
+              },
+              {
+                "id": 32,
+                "answer": ""
+              },
+              {
+                "id": 33,
+                "answer": ""
+              },
+              {
+                "id": 34,
+                "answer": ""
+              },
+              {
+                "id": 35,
+                "answer": ""
+              },
+              {
+                "id": 36,
+                "answer": ""
+              },
+              {
+                "id": 37,
+                "answer": ""
+              },
+              {
+                "id": 38,
+                "answer": ""
+              },
+              {
+                "id": 39,
+                "answer": ""
+              },
+              {
+                "id": 40,
+                "answer": ""
+              }
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "Academic Reading",
+        "timeLimit": 3600,
+        "parts": [
+          {
+            "partTitle": "Passage 1",
+            "passage": "In 2016, the British professional tennis player Andy Murray was ranked as the world's number one. It was an incredible achievement by any standard made even more remarkable by the fact that he did this during a period considered to be one of the strongest in the sport's history, competing against the likes of Rafael Nadal, Roger Federer and Novak Djokovic, to name just a few. Yet five years previously, he had been regarded as a talented outsider who entered but never won the major tournaments. Of the changes that account for this transformation, one was visible and widely publicised: in 2011, Murray invited former number one player Ivan Lendl onto his coaching team a valuable addition that had a visible impact on the player's playing style. Another change was so subtle as to pass more or less unnoticed. Like many players, Murray has long preferred a racket that consists of two types of string: one for the mains (verticals) and another for the crosses (horizontals). While he continued to use natural string in the crosses, in 2012 he switched to a synthetic string for the mains. A small change, perhaps, but its importance should not be underestimated.\n\nThe modification that Murray made is just one of a number of options available to players looking to tweak their rackets in order to improve their games. Touring professionals have their rackets customised to their specific needs,' says Colin Triplow, a UK-based professional racket stringer. 'It's a highly important part of performance maximisation.' Consequently, the specific rackets used by the world's elite are not actually readily available to the public; rather, each racket is individually made to suit the player who uses it. Take the US professional tennis players Mike and Bob Bryan, for example: 'We're very particular with our racket specifications, they say. 'All our rackets are sent from our manufacturer to Tampa, Florida, where our frames go through a. thorough customisation process. They explain how they have adjusted not only racket length, but even experimented with different kinds of paint. The rackets they use now weigh more than the average model and also have a denser string pattern (i.e. more crosses and mains). The primary reason for these modifications is simple: as the line between winning and losing becomes thinner and thinner, even these slight changes become more and more important. As a result, players and their teams are becoming increasingly creative with the modifications to their rackets as they look to maximise their competitive advantage."
+          },
+          {
+            "partTitle": "Questions 1-7",
+            "type": "single_question_list",
+            "instructions": "Do the following statements agree with the information given in Reading Passage 1?<br>In boxes 1-7 on your answer sheet, write<br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+            "questions": [
+              {
+                "id": 1,
+                "questionText": "1. People had expected Andy Murray to become the world's top tennis player for at least five years before 2016.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "FALSE"
+              },
+              {
+                "id": 2,
+                "questionText": "2. The change that Andy Murray made to his rackets attracted a lot of attention.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "FALSE"
+              },
+              {
+                "id": 3,
+                "questionText": "3. Most of the world's top players take a professional racket stringer on tour with them.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "NOT GIVEN"
+              },
+              {
+                "id": 4,
+                "questionText": "4. Mike and Bob Bryan use rackets that are light in comparison to the majority of rackets.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "FALSE"
+              },
+              {
+                "id": 5,
+                "questionText": "5. Werner Fischer played with a spaghetti-strung racket that he designed himself.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "NOT GIVEN"
+              },
+              {
+                "id": 6,
+                "questionText": "6. The weather can affect how professional players adjust the strings on their rackets.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "TRUE"
+              },
+              {
+                "id": 7,
+                "questionText": "7. It was believed that the change Pete Sampras made to his rackets contributed to his strong serve.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "answer": "TRUE"
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 8-13",
+            "type": "html_template",
+            "instructions": "Complete the notes below.<br>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "html_template": "<h3>The tennis racket and how it has changed</h3>\n<ul>\n<li>Mike and Bob Bryan made changes to the types of <strong>8</strong> [BLANK_8] used on their racket frames.</li>\n<li>Players were not allowed to use the spaghetti-strung racket because of the amount of <strong>9</strong> [BLANK_9] it created.</li>\n<li>Changes to rackets can be regarded as being as important as players' diets or the <strong>10</strong> [BLANK_10] they do.</li>\n<li>All rackets used to have natural strings made from the <strong>11</strong> [BLANK_11] of animals.</li>\n<li>Pete Sampras had metal <strong>12</strong> [BLANK_12] put into the frames of his rackets.</li>\n<li>Gonçalo Oliveira changed the <strong>13</strong> [BLANK_13] on his racket handles.</li>\n</ul>",
+            "questions": [
+              {
+                "id": 8,
+                "answer": "paint"
+              },
+              {
+                "id": 9,
+                "answer": "topspin"
+              },
+              {
+                "id": 10,
+                "answer": "training"
+              },
+              {
+                "id": 11,
+                "answer": "intestines"
+              },
+              {
+                "id": 12,
+                "answer": "weights"
+              },
+              {
+                "id": 13,
+                "answer": "grips"
+              }
+            ]
+          },
+          {
+            "partTitle": "Passage 2",
+            "passage": "A. When one mentions pirates, an image springs to most people's minds of a crew of misfits, daredevils and adventurers in command of a tall sailing ship in the Caribbean Sea. Yet from the first to the third millennium BCE, thousands of years before these swashbucklers began spreading fear across the Caribbean, pirates prowled the Mediterranean, raiding merchant ships and threatening vital trade routes. However, despite all efforts and the might of various ancient states, piracy could not be stopped. The situation remained unchanged for thousands of years. Only when the pirates directly threatened the interests of ancient Rome did the Roman Republic organise a massive fleet to eliminate piracy. Under the command of the Roman general Pompey, Rome eradicated piracy, transforming the Mediterranean into 'Mare Nostrum' (Our Sea).\n\nB. Although piracy in the Mediterranean is first recorded in ancient Egypt during the reign of Pharaoh Amenhotep III (c 1390-1353 BCE), it is reasonable to assume it predated this powerful civilisation. This is partly due to the great importance the Mediterranean held at this time, and partly due to its geography. While the Mediterranean region is predominantly fertile, some parts are rugged and hilly, even mountainous. In the ancient times, the inhabitants of these areas relied heavily on marine resources, including fish and salt. Most had their own boats, possessed good seafaring skills, and unsurpassed knowledge of the local coastline and sailing routes. Thus, it is not surprising that during hardships, these men turned to piracy. Geography itself further benefited the pirates, with the numerous coves along the coast providing places for them to hide their boats and strike undetected. Before the invention of ocean-going caravels in the 15th century, ships could not easily cross long distances over open water. Thus, in the ancient world most were restricted to a few well- known navigable routes that followed the coastline. Caught in a trap, a slow merchant ship laden with goods had no other option but to surrender. In addition, knowledge of the local area helped the pirates to avoid retaliation once a state fleet arrived.\n\nC. One should also add that it was not unknown in the first and second millennia BCE for governments to resort to pirates' services, especially during wartime, employing their skills and numbers against their opponents. A pirate fleet would serve in the first wave of attack, preparing the way for the navy. Some of the regions were known for providing safe harbours to pirates, who, in return, boosted the local economy.\n\nD. The first known record of a named group of Mediterranean pirates, made during the rule of ancient Egyptian Pharaoh Akhenaten (c 1353-1336 BCE), was in the Amarna Letters. These were extracts of diplomatic correspondence between the pharaoh and his allies, and covered many pressing issues, including piracy. It seems the pharaoh was troubled by two distinct pirate groups, the Lukka and the Sherden. Despite the Egyptian fleet's best efforts, the pirates continued to cause substantial disruption to regional commerce. In the letters, the king of Alashiya (modern Cyprus) rejected Akhenaten's claims of a connection with the Lukka (based in modern-day Turkey). The king assured Akhenaten he was prepared to punish any of his subjects involved in piracy.\n\nE. The ancient Greek world's experience of piracy was different from that of Egyptian rulers. While Egypt's power was land-based, the ancient Greeks relied on the Mediterranean in almost all aspects of life, from trade to warfare. Interestingly, in his works the Iliad and the Odyssey, the ancient Greek writer Homer not only condones, but praises the lifestyle and actions of pirates. The opinion remained unchanged in the following centuries. The ancient Greek historian Thucydides, for instance, glorified pirates' daring attacks on ships or even cities. For Greeks, piracy was a part of everyday life. Even high-ranking members of the state were not beyond engaging in such activities. According to the Greek orator Demosthenes, in 355 BCE, Athenian ambassadors made a detour from their official travel to capture a ship sailing from Egypt, taking the wealth found onboard for themselves!\n\nF. The Greeks' liberal approach towards piracy does not mean they always tolerated it, but attempts to curtail piracy were hampered by the large number of pirates operating in the Mediterranean.\n\nG. The rising power of ancient Rome required the Roman Republic to deal with piracy in the Mediterranean. While piracy was a serious issue for the Republic, Rome profited greatly from its existence. Pirate raids provided a steady source of slaves, essential for Rome's agriculture and mining industries. But this arrangement could work only while the pirates left Roman interests alone. Pirate attacks on grain ships, which were essential to Roman citizens, led to angry voices in the Senate, demanding punishment of the culprits. Rome, however, did nothing, further encouraging piracy. By the 1st century BCE, emboldened pirates kidnapped prominent Roman dignitaries, asking for a large ransom to be paid. Their most famous hostage was none other than Julius Caesar, captured in 75 BCE. By now, Rome was well aware that pirates had outlived their usefulness. The time had come for concerted action. In 67 BCE, a new law granted Pompey vast funds to combat the Mediterranean menace. Taking personal command, Pompey divided the entire Mediterranean into 13 districts, assigning a fleet and commander to each. After cleansing one district of pirates, the fleet would join another in the next district. The process continued until the entire Mediterranean was free of pirates. Although thousands of pirates died at the hands of Pompey's troops, as a long-term solution to the problem, many more were offered land in fertile areas located far from the sea. Instead of a maritime menace, Rome got productive farmers that further boosted its economy."
+          },
+          {
+            "partTitle": "Questions 14-26",
+            "type": "mixed",
+            "questions": [
+              {
+                "id": [
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "type": "matching_inline",
+                "instructions": "Reading Passage 2 has seven paragraphs, A-G.<br>Which paragraph contains the following information?<br>NB You may use any letter more than once.",
+                "options": [
+                  {
+                    "value": "A",
+                    "text": "A"
+                  },
+                  {
+                    "value": "B",
+                    "text": "B"
+                  },
+                  {
+                    "value": "C",
+                    "text": "C"
+                  },
+                  {
+                    "value": "D",
+                    "text": "D"
+                  },
+                  {
+                    "value": "E",
+                    "text": "E"
+                  },
+                  {
+                    "value": "F",
+                    "text": "F"
+                  },
+                  {
+                    "value": "G",
+                    "text": "G"
+                  }
+                ],
+                "matching_questions": [
+                  {
+                    "id": 14,
+                    "questionText": "14. a reference to a denial of involvement in piracy",
+                    "answer": "D"
+                  },
+                  {
+                    "id": 15,
+                    "questionText": "15. details of how a campaign to eradicate piracy was carried out",
+                    "answer": "G"
+                  },
+                  {
+                    "id": 16,
+                    "questionText": "16. a mention of the circumstances in which states in the ancient world would make use of pirates",
+                    "answer": "C"
+                  },
+                  {
+                    "id": 17,
+                    "questionText": "17. a reference to how people today commonly view pirates",
+                    "answer": "A"
+                  },
+                  {
+                    "id": 18,
+                    "questionText": "18. an explanation of how some people were encouraged not to return to piracy",
+                    "answer": "G"
+                  },
+                  {
+                    "id": 19,
+                    "questionText": "19. a mention of the need for many sailing vessels to stay relatively close to land",
+                    "answer": "B"
+                  }
+                ]
+              },
+              {
+                "id": [
+                  20,
+                  21
+                ],
+                "type": "single_question_list",
+                "multiSelect": true,
+                "instructions": "Questions 20 and 21: Choose TWO letters, A-E.<br>Which TWO of the following statements does the writer make about inhabitants of the Mediterranean region in the ancient world?",
+                "options": [
+                  "A. They often used stolen vessels to carry out pirate attacks.",
+                  "B. They managed to escape capture by the authorities because they knew the area so well.",
+                  "C. They paid for information about the routes merchant ships would take.",
+                  "D. They depended more on the sea for their livelihood than on farming.",
+                  "E. They stored many of the goods taken in pirate attacks in coves along the coastline."
+                ],
+                "answer": [
+                  "B",
+                  "D"
+                ]
+              },
+              {
+                "id": [
+                  22,
+                  23
+                ],
+                "type": "single_question_list",
+                "multiSelect": true,
+                "instructions": "Questions 22 and 23: Choose TWO letters, A-E.<br>Which TWO of the following statements does the writer make about piracy and ancient Greece?",
+                "options": [
+                  "A. The state estimated that very few people were involved in piracy.",
+                  "B. Attitudes towards piracy changed shortly after the Iliad and the Odyssey were written.",
+                  "C. Important officials were known to occasionally take part in piracy.",
+                  "D. Every citizen regarded pirate attacks on cities as unacceptable.",
+                  "E. A favourable view of piracy is evident in certain ancient Greek texts."
+                ],
+                "answer": [
+                  "C",
+                  "E"
+                ]
+              },
+              {
+                "id": [
+                  24,
+                  25,
+                  26
+                ],
+                "type": "html_template",
+                "instructions": "Questions 24-26: Complete the summary below.<br>Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+                "html_template": "<h3>Ancient Rome and piracy</h3>\n<p>Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting <strong>24</strong> [BLANK_24] to Rome resulted in calls for <strong>25</strong> [BLANK_25] for the pirates responsible. Nevertheless, piracy continued, with some pirates demanding a <strong>26</strong> [BLANK_26] for the return of the Roman officials they captured.</p>",
+                "questions": [
+                  {
+                    "id": 24,
+                    "answer": "grain"
+                  },
+                  {
+                    "id": 25,
+                    "answer": "punishment"
+                  },
+                  {
+                    "id": 26,
+                    "answer": "ransom"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "partTitle": "Passage 3",
+            "passage": "The persistence and peril of misinformation — Brian Southwell looks at how human brains verify information and discusses some of the challenges of battling widespread falsehoods."
+          },
+          {
+            "partTitle": "Questions 27–30",
+            "type": "single_question_list",
+            "instructions": "Choose the correct letter, A, B, C or D.",
+            "questions": [
+              {
+                "id": 27,
+                "questionText": "What point does the writer make about misinformation in the first paragraph?",
+                "options": [
+                  "A. Misinformation is a relatively recent phenomenon.",
+                  "B. Some people find it easy to identify misinformation.",
+                  "C. Misinformation changes as it is passed from one person to another.",
+                  "D. There may be a number of reasons for the spread of misinformation."
+                ],
+                "answer": "D"
+              },
+              {
+                "id": 28,
+                "questionText": "What does the writer say about the role of technology?",
+                "options": [
+                  "A. It may at some point provide us with a solution to misinformation.",
+                  "B. It could fundamentally alter the way in which people regard information.",
+                  "C. It has changed the way in which organisations use misinformation.",
+                  "D. It has made it easier for people to check whether information is accurate."
+                ],
+                "answer": "B"
+              },
+              {
+                "id": 29,
+                "questionText": "What is the writer’s attitude to making people more critical of information?",
+                "options": [
+                  "A. comparing the different opinions people have of misinformation",
+                  "B. explaining how misinformation could influence our behaviour",
+                  "C. drawing people’s attention to examples of misinformation in the media",
+                  "D. showing the misguided role of policy makers toward misinformation in the media"
+                ],
+                "answer": "B"
+              },
+              {
+                "id": 30,
+                "questionText": "What point does the writer make about regulation in the USA?",
+                "options": [
+                  "A. Regulation has reduced the publication of misinformation.",
+                  "B. The regulatory bodies oppose new rules on prescription drugs.",
+                  "C. The USA has more regulation than most other countries.",
+                  "D. Regulation fails to prevent misinformation appearing in the media."
+                ],
+                "answer": "D"
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 31–35",
+            "type": "html_template",
+            "instructions": "Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "html_template": "<h3>What happens when people encounter misinformation?</h3>\n<p>Although people have <strong>31</strong> [BLANK_31] to misinformation, there is debate about precisely when and how we learn something as true or untrue. The philosophers Descartes and Spinoza had <strong>32</strong> [BLANK_32] about how people engage with information. While Descartes believed that people accept or reject information after considering whether it is true or not, Spinoza argued that people accept information they encountered (and by default misinformation) and did not verify or reject it until afterwards. Moreover, Spinoza believed that a distinct <strong>33</strong> [BLANK_33] is involved when people assess information and its truth: experimental studies found support for Spinoza's theory and it would appear that people accept information by default; later they increasingly question it after exposure to <strong>34</strong> [BLANK_34]. This is consistent with the fact that the <strong>35</strong> [BLANK_35] in the brain associated with comprehension and resources for truth assessment are located in different locations.</p>",
+            "questions": [
+              {
+                "id": 31
+              },
+              {
+                "id": 32
+              },
+              {
+                "id": 33
+              },
+              {
+                "id": 34
+              },
+              {
+                "id": 35
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 36–40",
+            "type": "single_question_list",
+            "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong>, <strong>NO</strong> or <strong>NOT GIVEN</strong>.",
+            "questions": [
+              {
+                "id": 36,
+                "questionText": "Campaigns designed to correct misinformation will fail to achieve their purpose if people are unable to understand them.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "YES"
+              },
+              {
+                "id": 37,
+                "questionText": "Attempts to teach elementary school students about misinformation have been opposed.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NOT GIVEN"
+              },
+              {
+                "id": 38,
+                "questionText": "It may be possible to overcome the problem of misinformation in a relatively short period.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NO"
+              },
+              {
+                "id": 39,
+                "questionText": "The need to keep up with new information is hugely exaggerated in today’s world.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NO"
+              },
+              {
+                "id": 40,
+                "questionText": "People should focus on improving their critical thinking rather than using any single one-time remedy.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "YES"
+              }
+            ]
+          }
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "timeLimit": 3600,
+        "parts": [
+          {
+            "partTitle": "WRITING TASK 1",
+            "instructions": "You should spend about 20 minutes on this task.<br>The graph below gives information on the numbers of participants for different activities at one social centre in Melbourne, Australia for the period 2000 to 2020.<br>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.<br>Write at least 150 words.",
+            "image": "images/writing_task1_cam19_t1.png",
+            "questions": [
+              {
+                "id": 1,
+                "type": "writing",
+                "questionText": ""
+              }
+            ]
+          },
+          {
+            "partTitle": "WRITING TASK 2",
+            "instructions": "You should spend about 40 minutes on this task.<br>Write about the following topic:<br>Some people think that competition at work, at school and in daily life is a good thing. Others believe that we should try to cooperate more, rather than competing against each other.<br>Discuss both these views and give your own opinion.<br>Give reasons for your answer and include any relevant examples from your own knowledge or experience.<br>Write at least 250 words.",
+            "questions": [
+              {
+                "id": 2,
+                "type": "writing",
+                "questionText": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "setName": "Cambridge 19 - Test 2",
+      "listening": {
+        "title": "Listening",
+        "timeLimit": 2400,
+        "parts": [
+          {
+            "partTitle": "PART 1, Questions 1-10",
+            "audio": "audio/Test2_Part1.mp3",
+            "type": "html_template",
+            "instructions": "Complete the form and table below.<br>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer for questions 1-6.<br>Write <strong>ONE WORD ONLY</strong> for questions 7-10.",
+            "html_template": "<h3>Guitar Group</h3>\n<p><strong>Coordinator:</strong> Gary [BLANK_1]</p>\n<p><strong>Level:</strong> [BLANK_2]</p>\n<p><strong>Place:</strong> the [BLANK_3] [BLANK_4] Street</p>\n<p><strong>First floor, Room:</strong> T347</p>\n<p><strong>Time:</strong> Thursday morning at [BLANK_5]</p>\n<p><strong>Recommended website:</strong> 'The perfect [BLANK_6]'</p>\n<br>\n<h4>A typical 45-minute guitar lesson</h4>\n<table style=\"width:100%; border-collapse: collapse;\">\n  <tr style=\"background:#f2f2f2;\">\n    <th style=\"border:1px solid #ddd; padding:8px;\">Time</th><th style=\"border:1px solid #ddd; padding:8px;\">Activity</th><th style=\"border:1px solid #ddd; padding:8px;\">Notes</th>\n  </tr>\n  <tr><td style=\"border:1px solid #ddd; padding:8px;\">5 minutes</td><td style=\"border:1px solid #ddd; padding:8px;\">tuning guitars</td><td style=\"border:1px solid #ddd; padding:8px;\">using an app or by [BLANK_7]</td></tr>\n  <tr><td style=\"border:1px solid #ddd; padding:8px;\">10 minutes</td><td style=\"border:1px solid #ddd; padding:8px;\">strumming chords using our thumbs</td><td style=\"border:1px solid #ddd; padding:8px;\">keeping time while the teacher is [BLANK_8]</td></tr>\n  <tr><td style=\"border:1px solid #ddd; padding:8px;\">15 minutes</td><td style=\"border:1px solid #ddd; padding:8px;\">playing songs</td><td style=\"border:1px solid #ddd; padding:8px;\">often listening to a [BLANK_9] of a song</td></tr>\n  <tr><td style=\"border:1px solid #ddd; padding:8px;\">10 minutes</td><td style=\"border:1px solid #ddd; padding:8px;\">playing single notes and simple tunes</td><td style=\"border:1px solid #ddd; padding:8px;\">playing together, then [BLANK_10]</td></tr>\n  <tr><td style=\"border:1px solid #ddd; padding:8px;\">5 minutes</td><td style=\"border:1px solid #ddd; padding:8px;\">noting things to practise at home</td><td style=\"border:1px solid #ddd; padding:8px;\"></td></tr>\n</table>",
+            "questions": [
+              {
+                "id": 1,
+                "answer": "Fieldman"
+              },
+              {
+                "id": 2,
+                "answer": "beginners"
+              },
+              {
+                "id": 3,
+                "answer": "community"
+              },
+              {
+                "id": 4,
+                "answer": "centre"
+              },
+              {
+                "id": 5,
+                "answer": "10.30"
+              },
+              {
+                "id": 6,
+                "answer": "guitarist"
+              },
+              {
+                "id": 7,
+                "answer": "ear"
+              },
+              {
+                "id": 8,
+                "answer": "singing"
+              },
+              {
+                "id": 9,
+                "answer": "recording"
+              },
+              {
+                "id": 10,
+                "answer": "alone"
+              }
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "Academic Reading",
+        "timeLimit": 3600,
+        "parts": []
+      },
+      "writing": {
+        "title": "Writing",
+        "timeLimit": 3600,
+        "parts": [
+          {
+            "partTitle": "WRITING TASK 1",
+            "instructions": "You should spend about 20 minutes on this task.<br>The plans below show a harbour in 2000 and how it looks today.<br>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.<br>Write at least 150 words.",
+            "image": "images/writing_task1_cam19_t2.png",
+            "questions": [
+              {
+                "id": 1,
+                "type": "writing",
+                "questionText": ""
+              }
+            ]
+          },
+          {
+            "partTitle": "WRITING TASK 2",
+            "instructions": "You should spend about 40 minutes on this task.<br>Write about the following topic: The working week should be shorter and workers should have a longer weekend.<br>Do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.<br>Write at least 250 words.",
+            "questions": [
+              {
+                "id": 2,
+                "type": "writing",
+                "questionText": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "setName": "Cambridge 19 - Test 4",
+      "listening": {
+        "title": "Listening",
+        "timeLimit": 2400,
+        "parts": [
+          {
+            "partTitle": "PART 1, Questions 1–10",
+            "audio": "audio/Test4_Part1.mp3",
+            "type": "html_template",
+            "instructions": "Complete the notes below.<br>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.",
+            "html_template": "<h3>First day at work</h3>\n<ul>\n<li><strong>Name of supervisor:</strong> <strong>1</strong> [BLANK_1]</li>\n<li><strong>Where to leave coat and bag:</strong> use <strong>2</strong> [BLANK_2] in staffroom</li>\n<li><strong>See Tiffany in HR:</strong>\n  <ul>\n    <li>to give <strong>3</strong> [BLANK_3] number</li>\n    <li>to collect <strong>4</strong> [BLANK_4]</li>\n  </ul>\n</li>\n<li><strong>Location of HR office:</strong> on <strong>5</strong> [BLANK_5] floor</li>\n<li><strong>Supervisor's mobile number:</strong> <strong>6</strong> [BLANK_6]</li>\n</ul>\n\n<h4>Responsibilities (Questions 7–10)</h4>\n<table style='width:100%; border-collapse: collapse;'>\n<tr style='background:#f2f2f2;'>\n<th>Section</th><th>Task 1</th><th>Task 2</th><th>Notes</th>\n</tr>\n<tr><td>Bakery section</td><td>Check sell-by dates</td><td>Change price labels</td><td>Use <strong>7</strong> [BLANK_7] labels</td></tr>\n<tr><td>Sushi takeaway counter</td><td>Re-stock with <strong>8</strong> [BLANK_8] boxes if needed</td><td>Wipe preparation area and clean the sink</td><td>Do not clean any knives</td></tr>\n<tr><td>Meat and fish counters</td><td>Clean the serving area, including the weighing scales</td><td>Collect <strong>9</strong> [BLANK_9] for the fish from the cold-room</td><td>Must wear special <strong>10</strong> [BLANK_10]</td></tr>\n</table>",
+            "questions": [
+              {
+                "id": 1,
+                "answer": ""
+              },
+              {
+                "id": 2,
+                "answer": ""
+              },
+              {
+                "id": 3,
+                "answer": ""
+              },
+              {
+                "id": 4,
+                "answer": ""
+              },
+              {
+                "id": 5,
+                "answer": ""
+              },
+              {
+                "id": 6,
+                "answer": ""
+              },
+              {
+                "id": 7,
+                "answer": ""
+              },
+              {
+                "id": 8,
+                "answer": ""
+              },
+              {
+                "id": 9,
+                "answer": ""
+              },
+              {
+                "id": 10,
+                "answer": ""
+              }
+            ]
+          },
+          {
+            "partTitle": "PART 2, Questions 11–20",
+            "audio": "audio/Test4_Part2.mp3",
+            "instructions": "Questions 11–20",
+            "questions": [
+              {
+                "id": [
+                  11,
+                  12
+                ],
+                "type": "single_question_list",
+                "multiSelect": true,
+                "instructions": "Questions 11 and 12: Choose TWO letters, A–E.<br>Which TWO problems with some training programmes for new runners does Liz mention?",
+                "options": [
+                  "A. There is a risk of serious injury.",
+                  "B. They are unsuitable for certain age groups.",
+                  "C. They are unsuitable for people with health issues.",
+                  "D. It is difficult to stay motivated.",
+                  "E. There is a lack of individual support."
+                ],
+                "answer": []
+              },
+              {
+                "id": [
+                  13,
+                  14
+                ],
+                "type": "single_question_list",
+                "multiSelect": true,
+                "instructions": "Questions 13 and 14: Choose TWO letters, A–E.<br>Which TWO tips does Liz recommend for new runners?",
+                "options": [
+                  "A. doing two runs a week",
+                  "B. running in the evening",
+                  "C. going on runs with a friend",
+                  "D. listening to music during runs",
+                  "E. running very slowly"
+                ],
+                "answer": []
+              },
+              {
+                "id": [
+                  15,
+                  16,
+                  17,
+                  18
+                ],
+                "type": "matching_inline",
+                "instructions": "Questions 15–18: What reason prevented each of the following members of the Compton Park Runners Club from joining until recently? Write the correct letter, A, B or C.",
+                "options": [
+                  {
+                    "value": "A",
+                    "text": "a lack of confidence"
+                  },
+                  {
+                    "value": "B",
+                    "text": "a dislike of running"
+                  },
+                  {
+                    "value": "C",
+                    "text": "a lack of time"
+                  }
+                ],
+                "matching_questions": [
+                  {
+                    "id": 15,
+                    "questionText": "Ceri",
+                    "answer": ""
+                  },
+                  {
+                    "id": 16,
+                    "questionText": "James",
+                    "answer": ""
+                  },
+                  {
+                    "id": 17,
+                    "questionText": "Leo",
+                    "answer": ""
+                  },
+                  {
+                    "id": 18,
+                    "questionText": "Mark",
+                    "answer": ""
+                  }
+                ]
+              },
+              {
+                "id": 19,
+                "type": "single_question_list",
+                "instructions": "Question 19: Choose the correct letter, A, B or C.<br>What does Liz say about running her first marathon?",
+                "options": [
+                  "A. It had always been her ambition.",
+                  "B. Her husband persuaded her to do it.",
+                  "C. She nearly gave up before the end."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 20,
+                "type": "single_question_list",
+                "instructions": "Question 20: Choose the correct letter, A, B or C.<br>Liz says new runners should sign up for a race",
+                "options": [
+                  "A. every six months.",
+                  "B. within a few weeks of taking up running.",
+                  "C. after completing several practice runs."
+                ],
+                "answer": ""
+              }
+            ]
+          },
+          {
+            "partTitle": "PART 3, Questions 21–30",
+            "audio": "audio/Test4_Part3.mp3",
+            "instructions": "Questions 21–30",
+            "questions": [
+              {
+                "id": 21,
+                "type": "single_question_list",
+                "instructions": "Question 21: Choose the correct letter, A, B or C.",
+                "questionText": "Kieran thinks the packing advice given by Jane’s grandfather is",
+                "options": [
+                  "A. common sense.",
+                  "B. hard to follow.",
+                  "C. over-protective."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 22,
+                "type": "single_question_list",
+                "instructions": "Question 22: Choose the correct letter, A, B or C.",
+                "questionText": "How does Jane feel about the books her grandfather has given her?",
+                "options": [
+                  "A. They are not worth keeping.",
+                  "B. They should go to a collector.",
+                  "C. They have sentimental value for her."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 23,
+                "type": "single_question_list",
+                "instructions": "Question 23: Choose the correct letter, A, B or C.",
+                "questionText": "Jane and Kieran agree that hardback books should be",
+                "options": [
+                  "A. put out on display.",
+                  "B. given as gifts to visitors.",
+                  "C. more attractively designed."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 24,
+                "type": "single_question_list",
+                "instructions": "Question 24: Choose the correct letter, A, B or C.",
+                "questionText": "While talking about taking a book from a shelf, Jane",
+                "options": [
+                  "A. describes the mistakes other people make doing it.",
+                  "B. reflects on a significant childhood experience.",
+                  "C. explains why some books are easier to remove than others."
+                ],
+                "answer": ""
+              },
+              {
+                "id": 25,
+                "type": "single_question_list",
+                "instructions": "Question 25: Choose the correct letter, A, B or C.",
+                "questionText": "What do Jane and Kieran suggest about new books?",
+                "options": [
+                  "A. Their parents liked buying them as presents.",
+                  "B. They would like to buy more of them.",
+                  "C. Not everyone can afford them."
+                ],
+                "answer": ""
+              },
+              {
+                "id": [
+                  26,
+                  27,
+                  28,
+                  29,
+                  30
+                ],
+                "type": "matching_inline",
+                "instructions": "Questions 26–30: Where does Jane’s grandfather keep each of the following types of books in his shop? Choose FIVE answers from the box.",
+                "options": [
+                  {
+                    "value": "A",
+                    "text": "near the entrance"
+                  },
+                  {
+                    "value": "B",
+                    "text": "in the attic"
+                  },
+                  {
+                    "value": "C",
+                    "text": "at the back of the shop"
+                  },
+                  {
+                    "value": "D",
+                    "text": "on a high shelf"
+                  },
+                  {
+                    "value": "E",
+                    "text": "near the stairs"
+                  },
+                  {
+                    "value": "F",
+                    "text": "in a specially designed space"
+                  },
+                  {
+                    "value": "G",
+                    "text": "within the café"
+                  }
+                ],
+                "matching_questions": [
+                  {
+                    "id": 26,
+                    "questionText": "rare books",
+                    "answer": ""
+                  },
+                  {
+                    "id": 27,
+                    "questionText": "children’s books",
+                    "answer": ""
+                  },
+                  {
+                    "id": 28,
+                    "questionText": "unwanted books",
+                    "answer": ""
+                  },
+                  {
+                    "id": 29,
+                    "questionText": "requested books",
+                    "answer": ""
+                  },
+                  {
+                    "id": 30,
+                    "questionText": "coursebooks",
+                    "answer": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "partTitle": "PART 4, Questions 31–40",
+            "audio": "audio/Test4_Part4.mp3",
+            "type": "html_template",
+            "instructions": "Complete the notes below.<br>Write <strong>ONE WORD ONLY</strong> for each answer.",
+            "html_template": "<h3>Tree planting</h3>\n<p>Reforestation projects should:</p>\n<ul>\n<li>not include invasive species because of possible <strong>31</strong> [BLANK_31] with native species</li>\n<li>provide sustainable sources of <strong>32</strong> [BLANK_32] for local people</li>\n<li>use tree seeds with high genetic diversity to increase resistance to <strong>33</strong> [BLANK_33] and climate change</li>\n<li>plant trees on previously forested land, not land used for <strong>34</strong> [BLANK_34]</li>\n</ul>\n<p>Large-scale projects:</p>\n<ul>\n<li>Base planning decisions on accurate <strong>35</strong> [BLANK_35]</li>\n<li>Drones useful for keeping <strong>36</strong> [BLANK_36] and preventing illegal logging</li>\n</ul>\n<p>Lampang Province, Northern Thailand:</p>\n<ul>\n<li>Fig trees planted, important for supporting wildlife</li>\n<li>Increasing the <strong>37</strong> [BLANK_37] of recovery</li>\n<li>Example: <strong>38</strong> [BLANK_38] were soon attracted to the area</li>\n</ul>\n<p>Involving local communities:</p>\n<ul>\n<li>Mangrove destruction in Madagascar made it difficult for people to make a living from <strong>39</strong> [BLANK_39]</li>\n<li>Reforestation project provides jobs, restores ecosystem, protects against risk of <strong>40</strong> [BLANK_40]</li>\n</ul>",
+            "questions": [
+              {
+                "id": 31,
+                "answer": ""
+              },
+              {
+                "id": 32,
+                "answer": ""
+              },
+              {
+                "id": 33,
+                "answer": ""
+              },
+              {
+                "id": 34,
+                "answer": ""
+              },
+              {
+                "id": 35,
+                "answer": ""
+              },
+              {
+                "id": 36,
+                "answer": ""
+              },
+              {
+                "id": 37,
+                "answer": ""
+              },
+              {
+                "id": 38,
+                "answer": ""
+              },
+              {
+                "id": 39,
+                "answer": ""
+              },
+              {
+                "id": 40,
+                "answer": ""
+              }
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "Academic Reading",
+        "timeLimit": 3600,
+        "parts": [
+          {
+            "partTitle": "Passage 1",
+            "passage": "According to conservationists, populations of around two thirds of butterfly species have declined in Britain over the past 40 years... (rút gọn cho ngắn, bạn đã có bản đầy đủ trong PDF)."
+          },
+          {
+            "partTitle": "Questions 1–6",
+            "type": "single_question_list",
+            "instructions": "Do the following statements agree with the information given in Reading Passage 1?<br><strong>TRUE</strong> / <strong>FALSE</strong> / <strong>NOT GIVEN</strong>",
+            "questions": [
+              {
+                "id": 1,
+                "questionText": "1. Forty years ago, there were fewer butterflies in Britain than at present.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ]
+              },
+              {
+                "id": 2,
+                "questionText": "2. Caterpillars are eaten by a number of different predators.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ]
+              },
+              {
+                "id": 3,
+                "questionText": "3. ‘Phenology’ is a term used to describe a creature’s ability to alter the location of a lifecycle event.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ]
+              },
+              {
+                "id": 4,
+                "questionText": "4. Some species of butterfly have a reduced lifespan due to spring temperature increases.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ]
+              },
+              {
+                "id": 5,
+                "questionText": "5. There is a clear reason for the adaptations that butterflies are making to climate change.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ]
+              },
+              {
+                "id": 6,
+                "questionText": "6. The data used in the study was taken from the work of amateur butterfly watchers.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ]
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 7–13",
+            "type": "html_template",
+            "instructions": "Complete the notes below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "html_template": "<ul><li>The Small Blue lives in large <strong>7</strong> [BLANK_7].</li><li>First appears at the start of <strong>8</strong> [BLANK_8].</li><li>The High Brown Fritillary is more <strong>9</strong> [BLANK_9] than other species.</li><li>Its caterpillars occupy a limited range of <strong>10</strong> [BLANK_10].</li><li>The Silver-studded Blue reproduces twice in warm parts of <strong>11</strong> [BLANK_11].</li><li>The White Admiral is found in <strong>12</strong> [BLANK_12] parts of England.</li><li>Its decline may be due to climate and <strong>13</strong> [BLANK_13].</li></ul>",
+            "questions": [
+              {
+                "id": 7
+              },
+              {
+                "id": 8
+              },
+              {
+                "id": 9
+              },
+              {
+                "id": 10
+              },
+              {
+                "id": 11
+              },
+              {
+                "id": 12
+              },
+              {
+                "id": 13
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 14–19",
+            "type": "matching_inline",
+            "instructions": "Which paragraph contains the following information? NB: You may use any letter more than once.",
+            "options": [
+              {
+                "value": "A",
+                "text": "A"
+              },
+              {
+                "value": "B",
+                "text": "B"
+              },
+              {
+                "value": "C",
+                "text": "C"
+              },
+              {
+                "value": "D",
+                "text": "D"
+              },
+              {
+                "value": "E",
+                "text": "E"
+              },
+              {
+                "value": "F",
+                "text": "F"
+              },
+              {
+                "value": "G",
+                "text": "G"
+              }
+            ],
+            "matching_questions": [
+              {
+                "id": 14,
+                "questionText": "14. a reference to a denial of involvement in piracy",
+                "answer": "D"
+              },
+              {
+                "id": 15,
+                "questionText": "15. details of how a campaign to eradicate piracy was carried out",
+                "answer": "G"
+              },
+              {
+                "id": 16,
+                "questionText": "16. a mention of the circumstances in which states in the ancient world would make use of pirates",
+                "answer": "C"
+              },
+              {
+                "id": 17,
+                "questionText": "17. a reference to how people today commonly view pirates",
+                "answer": "A"
+              },
+              {
+                "id": 18,
+                "questionText": "18. an explanation of how some people were encouraged not to return to piracy",
+                "answer": "G"
+              },
+              {
+                "id": 19,
+                "questionText": "19. a mention of the need for many sailing vessels to stay relatively close to land",
+                "answer": "B"
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 20–21",
+            "type": "single_question_list",
+            "multiSelect": true,
+            "instructions": "Choose TWO letters, A–E.",
+            "options": [
+              "A. They often used stolen vessels to carry out pirate attacks.",
+              "B. They managed to escape capture by the authorities because they knew the area so well.",
+              "C. They paid for information about the routes merchant ships would take.",
+              "D. They depended more on the sea for their livelihood than on farming.",
+              "E. They stored many of the goods taken in pirate attacks in coves along the coastline."
+            ],
+            "id": [
+              20,
+              21
+            ],
+            "answer": [
+              "B",
+              "D"
+            ]
+          },
+          {
+            "partTitle": "Questions 22–23",
+            "type": "single_question_list",
+            "multiSelect": true,
+            "instructions": "Choose TWO letters, A–E.",
+            "options": [
+              "A. The state estimated that very few people were involved in piracy.",
+              "B. Attitudes towards piracy changed shortly after the Iliad and the Odyssey were written.",
+              "C. Important officials were known to occasionally take part in piracy.",
+              "D. Every citizen regarded pirate attacks on cities as unacceptable.",
+              "E. A favourable view of piracy is evident in certain ancient Greek texts."
+            ],
+            "id": [
+              22,
+              23
+            ],
+            "answer": [
+              "C",
+              "E"
+            ]
+          },
+          {
+            "partTitle": "Questions 24–26",
+            "type": "html_template",
+            "instructions": "Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "html_template": "<p>Pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting <strong>24</strong> [BLANK_24] to Rome resulted in calls for <strong>25</strong> [BLANK_25] for the pirates. Some demanded a <strong>26</strong> [BLANK_26] for the return of Roman officials.</p>",
+            "questions": [
+              {
+                "id": 24,
+                "answer": "grain"
+              },
+              {
+                "id": 25,
+                "answer": "punishment"
+              },
+              {
+                "id": 26,
+                "answer": "ransom"
+              }
+            ]
+          },
+          {
+            "partTitle": "Passage 3",
+            "passage": "The Unselfish Gene – A psychologist gives his view on how humans became self-centred. (Văn bản đầy đủ đã được phân tích trong PDF)"
+          },
+          {
+            "partTitle": "Questions 27–30",
+            "type": "single_question_list",
+            "instructions": "Choose the correct letter, A, B, C or D.",
+            "questions": [
+              {
+                "id": 27,
+                "questionText": "What is the writer doing in the first paragraph?",
+                "options": [
+                  "A. setting out two opposing views about human nature",
+                  "B. justifying his opinion about our tendency to be greedy",
+                  "C. describing a commonly held belief about people’s behaviour",
+                  "D. explaining why he thinks that humans act in a selfish manner"
+                ],
+                "answer": "C"
+              },
+              {
+                "id": 28,
+                "questionText": "What point is made about Richard Dawkins’ book The Selfish Gene?",
+                "options": [
+                  "A. Its appeal lay in the radical nature of its ideas.",
+                  "B. Its success was due to the scientific support it offered.",
+                  "C. It presented a view that was in line with the attitudes of its time.",
+                  "D. It took an innovative approach to the analysis of human psychology."
+                ],
+                "answer": "C"
+              },
+              {
+                "id": 29,
+                "questionText": "What does the writer suggest about the prehistoric era in the fourth paragraph?",
+                "options": [
+                  "A. Societies were more complex than many people believe.",
+                  "B. Supplies of natural resources were probably relatively plentiful.",
+                  "C. Most estimates about population sizes are likely to be inaccurate.",
+                  "D. Humans moved across continents more than was previously thought."
+                ],
+                "answer": "B"
+              },
+              {
+                "id": 30,
+                "questionText": "The writer refers to Bruce Knauft’s work as support for the idea that",
+                "options": [
+                  "A. selfishness is a relatively recent development in human societies.",
+                  "B. only people in isolated communities can live in an unselfish manner.",
+                  "C. very few lifestyles have survived unchanged since prehistoric times.",
+                  "D. hunter-gatherer cultures worldwide are declining in number."
+                ],
+                "answer": "A"
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 31–35",
+            "type": "html_template",
+            "instructions": "Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
+            "html_template": "<p>Bruce Knauft’s research shows that contemporary hunter-gatherer societies tend to exhibit a high level of <strong>31</strong> [BLANK_31] in all areas of life... Women have a considerable amount of <strong>35</strong> [BLANK_35] regarding work and marriage.</p>",
+            "questions": [
+              {
+                "id": 31
+              },
+              {
+                "id": 32
+              },
+              {
+                "id": 33
+              },
+              {
+                "id": 34
+              },
+              {
+                "id": 35
+              }
+            ]
+          },
+          {
+            "partTitle": "Questions 36–40",
+            "type": "single_question_list",
+            "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3?<br>Write <strong>YES</strong>, <strong>NO</strong> or <strong>NOT GIVEN</strong>.",
+            "questions": [
+              {
+                "id": 36,
+                "questionText": "36. Some anthropologists are mistaken about the point when the number of societies such as the !Kung began to decline.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NOT GIVEN"
+              },
+              {
+                "id": 37,
+                "questionText": "37. Humans who developed warlike traits in prehistory would have had an advantage over those who did not.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NO"
+              },
+              {
+                "id": 38,
+                "questionText": "38. Being peaceful and cooperative is a natural way for people to behave.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "YES"
+              },
+              {
+                "id": 39,
+                "questionText": "39. Negative traits are more apparent in some modern cultures than in others.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NOT GIVEN"
+              },
+              {
+                "id": 40,
+                "questionText": "40. Animal research has failed to reveal a link between changes in the environment and the emergence of aggressive tendencies.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "answer": "NO"
+              }
+            ]
+          }
+        ]
+      },
+      "writing": {
+        "title": "Writing",
+        "timeLimit": 3600,
+        "parts": [
+          {
+            "partTitle": "WRITING TASK 1",
+            "instructions": "You should spend about 20 minutes on this task.<br>The charts below give information on the location and types of dance classes young people in a town in Australia are currently attending.<br>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.<br>Write at least 150 words.",
+            "questions": [
+              {
+                "id": 1,
+                "type": "writing",
+                "questionText": ""
+              }
+            ]
+          },
+          {
+            "partTitle": "WRITING TASK 2",
+            "instructions": "You should spend about 40 minutes on this task.<br>Write about the following topic:<br>In many countries nowadays, consumers can go to a supermarket and buy food produced all over the world.<br>Do you think this is a positive or negative development?<br>Give reasons for your answer and include any relevant examples from your own knowledge or experience.<br>Write at least 250 words.",
+            "questions": [
+              {
+                "id": 2,
+                "type": "writing",
+                "questionText": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
