@@ -204,6 +204,28 @@ document.addEventListener('DOMContentLoaded', () => {
                               </div>`;
         }
 
+        
+        setTimeout(() => {
+            const audioEl = card.querySelector("audio");
+            if (audioEl) {
+                // Không cho tua bằng click hoặc kéo thanh
+                audioEl.addEventListener("seeking", () => {
+                    audioEl.currentTime = 0; // luôn bật về đầu nếu họ cố tua
+                });
+
+                // Khi nghe xong -> khóa hẳn
+                audioEl.addEventListener("ended", () => {
+                    audioEl.disabled = true;
+                    audioEl.style.opacity = "0.5";
+                    audioEl.style.pointerEvents = "none";
+                });
+            }
+        }, 0);
+
+
+
+
+
         if (part.partTitle) card.innerHTML += `<h3>${part.partTitle}</h3>`;
         if (part.passage) card.innerHTML += `<div class="passage">${part.passage}</div>`;
         if (part.image) card.innerHTML += `<img src="${part.image}" alt="Question Image" class="question-image">`;

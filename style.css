@@ -411,3 +411,7 @@ footer {
     color: #6c757d;
     border-top: 1px solid var(--border-color);
 }
+
+audio::-webkit-media-controls-timeline {
+    display: none !important;
+}
