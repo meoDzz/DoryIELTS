@@ -8,7 +8,7 @@
         "parts": [
           {
             "partTitle": "PART 1, Questions 1–10",
-            "audio": "audio/Test2_Part1.mp3",
+            "audio": "audio/Test1_Part1_Cam19.mp3",
             "type": "html_template",
             "instructions": "Complete the notes below.<br>Write <strong>ONE WORD AND/OR A NUMBER</strong> for each answer.",
             "html_template": "<h3>Hinchingbrooke Country Park</h3>\n<h4>The park</h4>\n<p>Area: <strong>1</strong> [BLANK_1] hectares</p>\n<p>Habitats: wetland, grassland and woodland</p>\n<p>Wetland: lakes, ponds and a <strong>2</strong> [BLANK_2]</p>\n<p>Wildlife includes birds, insects and animals</p>\n<h4>Subjects studied in educational visits include</h4>\n<p>Science: Children look at <strong>3</strong> [BLANK_3] about plants, etc.</p>\n<p>Geography: includes learning to use a <strong>4</strong> [BLANK_4] and compass</p>\n<p>History: changes in land use</p>\n<p>Leisure and tourism: mostly concentrates on the park's <strong>5</strong> [BLANK_5]</p>\n<p>Music: Children make <strong>6</strong> [BLANK_6] with natural materials, and experiment with rhythm and speed.</p>\n<h4>Benefits of outdoor educational visits</h4>\n<p>They give children a feeling of <strong>7</strong> [BLANK_7] that they may not have elsewhere.</p>\n<p>Children learn new <strong>8</strong> [BLANK_8] and gain self-confidence.</p>\n<h4>Practical issues</h4>\n<p>Cost per child: £<strong>9</strong> [BLANK_9]</p>\n<p>Adults, such as <strong>10</strong> [BLANK_10] free</p>",
@@ -57,8 +57,9 @@
           },
           {
             "partTitle": "PART 2, Questions 11–20",
-            "audio": "audio/Test2_Part2.mp3",
+            "audio": "audio/Test1_Part2_Cam19.mp3",
             "instructions": "Stanthorpe Twinning Association",
+            "image": "images/writing_task1_cam19_t2.png",
             "questions": [
               {
                 "id": 11,
@@ -196,7 +197,7 @@
           },
           {
             "partTitle": "PART 3, Questions 21–30",
-            "audio": "audio/Test1_Part3.mp3",
+            "audio": "audio/Test1_Part3_Cam19.mp3",
             "instructions": "Questions 21–30",
             "questions": [
               {
@@ -315,7 +316,7 @@
           },
           {
             "partTitle": "PART 4, Questions 31–40",
-            "audio": "audio/Test1_Part4.mp3",
+            "audio": "audio/Test1_Part4_Cam19.mp3",
             "type": "html_template",
             "instructions": "Complete the notes below.<br>Write <strong>ONE WORD ONLY</strong> for each answer.",
             "html_template": "<h3>Céide Fields</h3>\n<p><em>an important Neolithic archaeological site in the northwest of Ireland</em></p>\n<h4>Discovery</h4>\n<ul>\n<li>In the 1930s, a local teacher realised that stones beneath the bog surface were once <strong>31</strong> [BLANK_31].</li>\n<li>His <strong>32</strong> [BLANK_32] became an archaeologist and undertook an investigation of the site:</li>\n<li style='list-style:none; margin-left:1em;'>– a traditional method used by local people to dig for <strong>33</strong> [BLANK_33] was used to identify where stones were located</li>\n<li style='list-style:none; margin-left:1em;'>– carbon dating later proved the site was Neolithic.</li>\n<li>Items are well preserved in the bog because of a lack of <strong>34</strong> [BLANK_34].</li>\n</ul>\n<h4>Neolithic farmers</h4>\n<ul>\n<li>Houses were <strong>35</strong> [BLANK_35] in shape and had a hole in the roof.</li>\n<li>Neolithic innovations include: cooking indoors; pots used for storage and to make <strong>36</strong> [BLANK_36].</li>\n<li>Each field at Céide was large enough to support a big <strong>37</strong> [BLANK_37].</li>\n<li>The fields were probably used to restrict the grazing of animals – no evidence of structures to house them during <strong>38</strong> [BLANK_38].</li>\n</ul>\n<h4>Reasons for the decline in farming</h4>\n<ul>\n<li>a decline in <strong>39</strong> [BLANK_39] quality</li>\n<li>an increase in <strong>40</strong> [BLANK_40]</li>\n</ul>",
