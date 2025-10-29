@@ -91,7 +91,7 @@
             "partTitle": "PART 2, Questions 11–20",
             "audio": "audio/Test1_Part2_Cam19.mp3",
             "instructions": "Stanthorpe Twinning Association",
-            "image": "images/writing_task1_cam19_t2.png",
+            "image": "images/lis1_part2_cam19.png",
             "questions": [
               {
                 "id": 11,
@@ -280,35 +280,35 @@
                 "options": [
                   {
                     "value": "A",
-                    "text": "This is only relevant to young people."
+                    "text": "A. This is only relevant to young people."
                   },
                   {
                     "value": "B",
-                    "text": "This may have disappointing results."
+                    "text": "B. This may have disappointing results."
                   },
                   {
                     "value": "C",
-                    "text": "This already seems to be widespread."
+                    "text": "C. This already seems to be widespread."
                   },
                   {
                     "value": "D",
-                    "text": "Retailers should do more to encourage this."
+                    "text": "D. Retailers should do more to encourage this."
                   },
                   {
                     "value": "E",
-                    "text": "More financial support is needed for this."
+                    "text": "E. More financial support is needed for this."
                   },
                   {
                     "value": "F",
-                    "text": "Most people know little about this."
+                    "text": "F. Most people know little about this."
                   },
                   {
                     "value": "G",
-                    "text": "There should be stricter regulations about this."
+                    "text": "G. There should be stricter regulations about this."
                   },
                   {
                     "value": "H",
-                    "text": "This could be dangerous."
+                    "text": "H. This could be dangerous."
                   }
                 ],
                 "matching_questions": [
