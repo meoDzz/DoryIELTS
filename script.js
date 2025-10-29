@@ -21,7 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const restartBtn = document.getElementById('restart-btn');
     const audioPlayerContainer = document.getElementById('audio-player-container');
     const resultContainer = document.getElementById('result-content');
-
+    const EMAILJS_SERVICE_ID = 'service_ei4xfef';
+    const EMAILJS_TEMPLATE_ID = 'template_qreb1g9';
+    const EMAILJS_PUBLIC_KEY = 'UvQnIXc4RTL7_Hvfy';
+    const RECIPIENT_EMAIL = null;
+    // MỚI: Khởi tạo EmailJS
+    (function() {
+        emailjs.init(EMAILJS_PUBLIC_KEY);
+    })();
     const completedSections = {
         listening: false,
         reading: false,
@@ -502,30 +509,151 @@ document.addEventListener('DOMContentLoaded', () => {
         return { correctCount, incorrectCount, unansweredCount, resultDetails };
     }
 
+    // function isAnswerCorrect(userAnswer, correctAnswer) {
+    
+    //     if (userAnswer === undefined || userAnswer === null) return false;
+    //     const format = (ans) => String(ans).toLowerCase().trim().replace(/\.$/, '');
+
+    //     if (Array.isArray(correctAnswer)) {
+    //         if (!Array.isArray(userAnswer) || userAnswer.length !== correctAnswer.length) {
+    //             return false;
+    //         }
+    //         const sortedUserAnswer = [...userAnswer].map(format).sort();
+    //         const sortedCorrectAnswer = [...correctAnswer].map(format).sort();
+    //         return JSON.stringify(sortedUserAnswer) === JSON.stringify(sortedCorrectAnswer);
+    //     } else {
+    //         const user = format(userAnswer);
+    //         const correct = format(correctAnswer);
+    //         if (['true', 'false', 'not given', 'yes', 'no'].includes(correct)) {
+    //             return user.charAt(0) === correct.charAt(0);
+    //         }
+    //         return user === correct;
+    //     }
+    // }
+
     function isAnswerCorrect(userAnswer, correctAnswer) {
         if (userAnswer === undefined || userAnswer === null) return false;
+        
+        // Hàm chuẩn hóa câu trả lời: chuyển về chữ thường, cắt khoảng trắng, xóa dấu chấm cuối câu
         const format = (ans) => String(ans).toLowerCase().trim().replace(/\.$/, '');
 
+        // 1. Xử lý trường hợp đáp án ĐÚNG là một MẢNG (Multi-choice hoặc Fill-in có nhiều đáp án thay thế)
         if (Array.isArray(correctAnswer)) {
-            if (!Array.isArray(userAnswer) || userAnswer.length !== correctAnswer.length) {
-                return false;
+            // Trường hợp 1a: Multi-choice (Multiple answers - ví dụ: A, C)
+            // Nếu cả người dùng và đáp án đúng đều là mảng
+            if (Array.isArray(userAnswer)) {
+                // Sắp xếp và chuẩn hóa để so sánh chính xác các mảng
+                const sortedUserAnswer = [...userAnswer].map(format).sort();
+                const sortedCorrectAnswer = [...correctAnswer].map(format).sort();
+                
+                // Trường hợp này thường chỉ dùng cho multi-choice, không dùng cho Fill-in.
+                // Nếu độ dài mảng khác nhau, chắc chắn sai.
+                if (sortedUserAnswer.length !== sortedCorrectAnswer.length) {
+                    return false;
+                }
+                
+                // Kiểm tra từng phần tử
+                return JSON.stringify(sortedUserAnswer) === JSON.stringify(sortedCorrectAnswer);
             }
-            const sortedUserAnswer = [...userAnswer].map(format).sort();
-            const sortedCorrectAnswer = [...correctAnswer].map(format).sort();
-            return JSON.stringify(sortedUserAnswer) === JSON.stringify(sortedCorrectAnswer);
-        } else {
+            
+            // Trường hợp 1b: Fill-in (Nhiều lựa chọn thay thế - ví dụ: ["69", "sixty-nine"])
+            // Nếu đáp án người dùng là chuỗi/số (không phải mảng)
+            const formattedUser = format(userAnswer);
+            return correctAnswer.some(option => formattedUser === format(option));
+            
+        } 
+        
+        // 2. Xử lý trường hợp đáp án ĐÚNG chỉ là một CHUỖI đơn
+        else {
             const user = format(userAnswer);
             const correct = format(correctAnswer);
+            
+            // Xử lý linh hoạt cho True/False/Not Given, Yes/No/Not Given (so sánh chữ cái đầu)
             if (['true', 'false', 'not given', 'yes', 'no'].includes(correct)) {
                 return user.charAt(0) === correct.charAt(0);
             }
+            
+            // So sánh chuỗi/số đã được chuẩn hóa
             return user === correct;
         }
     }
 
+
+
+        // --- MỚI: Hàm gửi email ---
+    function sendEmailWithResults(scoreData) {
+        let results_html = '';
+        const section_name = currentSection.charAt(0).toUpperCase() + currentSection.slice(1);
+
+        if (currentSection === 'writing') {
+            results_html += '<h3>Writing Responses</h3>';
+            Object.values(scoreData.writingResponses).forEach((response, index) => {
+                results_html += `
+                    <h4>Task ${index + 1}</h4>
+                    <p style="white-space: pre-wrap; border: 1px solid #ccc; padding: 10px; background-color: #f9f9f9;">${response}</p>
+                `;
+            });
+        } else {
+            results_html = `
+                <p><strong>Correct:</strong> ${scoreData.correctCount} | 
+                   <strong>Incorrect:</strong> ${scoreData.incorrectCount} | 
+                   <strong>Unanswered:</strong> ${scoreData.unansweredCount}</p>
+                <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+                    <thead>
+                        <tr style="background-color: #f2f2f2;">
+                            <th>Question</th>
+                            <th>Your Answer</th>
+                            <th>Correct Answer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            scoreData.resultDetails.forEach(detail => {
+                const userAnswerText = Array.isArray(detail.userAnswer) ? detail.userAnswer.join(', ') : (detail.userAnswer || '—');
+                const correctAnswerText = Array.isArray(detail.correctAnswer) ? detail.correctAnswer.join(', ') : detail.correctAnswer;
+                const qNumberText = Array.isArray(detail.questionNumber) ? detail.questionNumber.join(' & ') : detail.questionNumber;
+                const rowStyle = detail.isCorrect ? 'background-color: #e9fce9;' : (detail.userAnswer ? 'background-color: #ffe8e8;' : '');
+
+                results_html += `
+                    <tr style="${rowStyle}">
+                        <td>${qNumberText}</td>
+                        <td>${userAnswerText}</td>
+                        <td>${correctAnswerText}</td>
+                    </tr>
+                `;
+            });
+            results_html += '</tbody></table>';
+        }
+
+        const templateParams = {
+            student_name: studentInfo.fullName,
+            student_class: studentInfo.className,
+            test_date: studentInfo.dob,
+            student_phone: studentInfo.phone,
+            student_email: studentInfo.email,
+            test_set_name: selectedTestSet.setName,
+            section_name: section_name,
+            results_html: results_html,
+            to_email: studentInfo.email, // Đã đổi tên biến người nhận là 'to_email'
+            reply_to: studentInfo.email // Người nhận có thể Reply_to thẳng vào email học viên
+        };
+
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Kết quả của bạn đã được gửi đi thành công!');
+            }, function(error) {
+                console.log('FAILED...', error);
+                alert('Có lỗi xảy ra khi gửi kết quả. Vui lòng thử lại.');
+            });
+    }
+    
+    
     function handleSubmit() {
         clearInterval(timerInterval);
         const scoreData = calculateScore();
+        //Gửi email với kết quả
+        sendEmailWithResults(scoreData);
 
         let feedbackHTML = `<h2>Results for ${selectedTestSet.setName} - ${currentSection.charAt(0).toUpperCase() + currentSection.slice(1)}</h2>`;
         if (currentSection === 'writing') {
@@ -634,3 +762,8 @@ document.addEventListener('DOMContentLoaded', () => {
     nextBtn.addEventListener('click', goNext);
     submitBtn.addEventListener('click', handleSubmit);
 });
+
+
+
+
+

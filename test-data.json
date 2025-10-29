@@ -15,43 +15,75 @@
             "questions": [
               {
                 "id": 1,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "69",
+                  "sixty-nine",
+                  "sixty nine"
+                ]
               },
               {
                 "id": 2,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "stream"
+                ]
               },
               {
                 "id": 3,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "data"
+                ]
               },
               {
                 "id": 4,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "map"
+                ]
               },
               {
                 "id": 5,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "visitors"
+                ]
               },
               {
                 "id": 6,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "sounds"
+                ]
               },
               {
                 "id": 7,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "freedom"
+                ]
               },
               {
                 "id": 8,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "skills"
+                ]
               },
               {
                 "id": 9,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "4.95"
+                ]
               },
               {
                 "id": 10,
-                "answer": ""
+                "type": "text",
+                "answer": [
+                  "leaders"
+                ]
               }
             ]
           },
@@ -71,7 +103,7 @@
                   "B. experiencing a river trip.",
                   "C. visiting a cheese factory."
                 ],
-                "answer": ""
+                "answer": ["B"]
               },
               {
                 "id": 12,
@@ -83,7 +115,7 @@
                   "B. A garden seat will be bought.",
                   "C. A footbridge will be built."
                 ],
-                "answer": ""
+                "answer": ["A"]
               },
               {
                 "id": 13,
@@ -95,7 +127,7 @@
                   "B. the pancake evening",
                   "C. the cookery demonstration"
                 ],
-                "answer": ""
+                "answer": ["B"]
               },
               {
                 "id": 14,
@@ -107,7 +139,7 @@
                   "B. go to a local restaurant.",
                   "C. have a meal at home."
                 ],
-                "answer": ""
+                "answer": ["C"]
               },
               {
                 "id": 15,
@@ -119,7 +151,7 @@
                   "B. watch a match.",
                   "C. take part in a competition."
                 ],
-                "answer": ""
+                "answer": ["A"]
               },
               {
                 "id": [
@@ -169,27 +201,27 @@
                   {
                     "id": 16,
                     "questionText": "Farm shop",
-                    "answer": ""
+                    "answer": ["G"]
                   },
                   {
                     "id": 17,
                     "questionText": "Disabled entry",
-                    "answer": ""
+                    "answer": ["C"]
                   },
                   {
                     "id": 18,
                     "questionText": "Adventure playground",
-                    "answer": ""
+                    "answer": ["B"]
                   },
                   {
                     "id": 19,
                     "questionText": "Kitchen gardens",
-                    "answer": ""
+                    "answer": ["D"]
                   },
                   {
                     "id": 20,
                     "questionText": "The Temple of the Four Winds",
-                    "answer": ""
+                    "answer": ["A"]
                   }
                 ]
               }
@@ -215,7 +247,7 @@
                   "D. experimenting with designs and colours",
                   "E. learning how to apply 3-D printing"
                 ],
-                "answer": []
+                "answer": ["B","D"]
               },
               {
                 "id": [
@@ -232,7 +264,7 @@
                   "D. to provide applications for blind people",
                   "E. to indicate the weight of certain foods"
                 ],
-                "answer": []
+                "answer": ["A","E"]
               },
               {
                 "id": [
@@ -283,32 +315,32 @@
                   {
                     "id": 25,
                     "questionText": "Use of local products",
-                    "answer": ""
+                    "answer": ["D"]
                   },
                   {
                     "id": 26,
                     "questionText": "Reduction in unnecessary packaging",
-                    "answer": ""
+                    "answer": ["G"]
                   },
                   {
                     "id": 27,
                     "questionText": "Gluten-free and lactose-free food",
-                    "answer": ""
+                    "answer": ["C"]
                   },
                   {
                     "id": 28,
                     "questionText": "Use of branded products related to celebrity chefs",
-                    "answer": ""
+                    "answer": ["B"]
                   },
                   {
                     "id": 29,
                     "questionText": "Development of ‘ghost kitchens’ for takeaway food",
-                    "answer": ""
+                    "answer": ["F"]
                   },
                   {
                     "id": 30,
                     "questionText": "Use of mushrooms for common health concerns",
-                    "answer": ""
+                    "answer": ["H"]
                   }
                 ]
               }
@@ -323,43 +355,43 @@
             "questions": [
               {
                 "id": 31,
-                "answer": ""
+                "answer": ["walls"]
               },
               {
                 "id": 32,
-                "answer": ""
+                "answer": ["son"]
               },
               {
                 "id": 33,
-                "answer": ""
+                "answer": ["fuel"]
               },
               {
                 "id": 34,
-                "answer": ""
+                "answer": ["oxygen"]
               },
               {
                 "id": 35,
-                "answer": ""
+                "answer": ["rectangular"]
               },
               {
                 "id": 36,
-                "answer": ""
+                "answer": ["lamps"]
               },
               {
                 "id": 37,
-                "answer": ""
+                "answer": ["family"]
               },
               {
                 "id": 38,
-                "answer": ""
+                "answer": ["winter"]
               },
               {
                 "id": 39,
-                "answer": ""
+                "answer": ["soil"]
               },
               {
                 "id": 40,
-                "answer": ""
+                "answer": ["rain"]
               }
             ]
           }
@@ -386,7 +418,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "FALSE"
+                "answer": ["FALSE"]
               },
               {
                 "id": 2,
@@ -396,7 +428,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "FALSE"
+                "answer": ["FALSE"]
               },
               {
                 "id": 3,
@@ -406,7 +438,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "NOT GIVEN"
+                "answer": ["NOT GIVEN"]
               },
               {
                 "id": 4,
@@ -416,7 +448,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "FALSE"
+                "answer": ["FALSE"]
               },
               {
                 "id": 5,
@@ -426,7 +458,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "NOT GIVEN"
+                "answer": ["NOT GIVEN"]
               },
               {
                 "id": 6,
@@ -436,7 +468,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "TRUE"
+                "answer": ["TRUE"]
               },
               {
                 "id": 7,
@@ -446,7 +478,7 @@
                   "FALSE",
                   "NOT GIVEN"
                 ],
-                "answer": "TRUE"
+                "answer": ["TRUE"]
               }
             ]
           },
@@ -458,27 +490,27 @@
             "questions": [
               {
                 "id": 8,
-                "answer": "paint"
+                "answer": ["paint"]
               },
               {
                 "id": 9,
-                "answer": "topspin"
+                "answer": ["topspin"]
               },
               {
                 "id": 10,
-                "answer": "training"
+                "answer": ["training"]
               },
               {
                 "id": 11,
-                "answer": "intestines"
+                "answer": ["intestines", "gut"]
               },
               {
                 "id": 12,
-                "answer": "weights"
+                "answer": ["weights"]
               },
               {
                 "id": 13,
-                "answer": "grips"
+                "answer": ["grips"]
               }
             ]
           },
@@ -535,32 +567,32 @@
                   {
                     "id": 14,
                     "questionText": "14. a reference to a denial of involvement in piracy",
-                    "answer": "D"
+                    "answer": ["D"]
                   },
                   {
                     "id": 15,
                     "questionText": "15. details of how a campaign to eradicate piracy was carried out",
-                    "answer": "G"
+                    "answer": ["G"]
                   },
                   {
                     "id": 16,
                     "questionText": "16. a mention of the circumstances in which states in the ancient world would make use of pirates",
-                    "answer": "C"
+                    "answer": ["C"]
                   },
                   {
                     "id": 17,
                     "questionText": "17. a reference to how people today commonly view pirates",
-                    "answer": "A"
+                    "answer": ["A"]
                   },
                   {
                     "id": 18,
                     "questionText": "18. an explanation of how some people were encouraged not to return to piracy",
-                    "answer": "G"
+                    "answer": ["G"]
                   },
                   {
                     "id": 19,
                     "questionText": "19. a mention of the need for many sailing vessels to stay relatively close to land",
-                    "answer": "B"
+                    "answer": ["B"]
                   }
                 ]
               },
@@ -614,15 +646,15 @@
             "questions": [
               {
                 "id": 24,
-                "answer": "grain"
+                "answer": ["grain"]
               },
               {
                 "id": 25,
-                "answer": "punishment"
+                "answer": ["punishment"]
               },
               {
                 "id": 26,
-                "answer": "ransom"
+                "answer": ["ransom"]
               }
             ]
           },
@@ -637,127 +669,122 @@
             "questions": [
               {
                 "id": 27,
-                "questionText": "What point does the writer make about misinformation in the first paragraph?",
+                "questionText": "27. What point does the writer make about misinformation in the first paragraph?",
                 "options": [
                   "A. Misinformation is a relatively recent phenomenon.",
                   "B. Some people find it easy to identify misinformation.",
                   "C. Misinformation changes as it is passed from one person to another.",
                   "D. There may be a number of reasons for the spread of misinformation."
                 ],
-                "answer": "D"
+                "answer": ["D"]
               },
               {
                 "id": 28,
-                "questionText": "What does the writer say about the role of technology?",
+                "questionText": "28. What does the writer say about the role of technology?",
                 "options": [
                   "A. It may at some point provide us with a solution to misinformation.",
                   "B. It could fundamentally alter the way in which people regard information.",
                   "C. It has changed the way in which organisations use misinformation.",
                   "D. It has made it easier for people to check whether information is accurate."
                 ],
-                "answer": "B"
+                "answer": ["A"]
               },
               {
                 "id": 29,
-                "questionText": "What is the writer’s attitude to making people more critical of information?",
+                "questionText": "29. What is the writer’s attitude to making people more critical of information?",
                 "options": [
                   "A. comparing the different opinions people have of misinformation",
                   "B. explaining how misinformation could influence our behaviour",
                   "C. drawing people’s attention to examples of misinformation in the media",
                   "D. showing the misguided role of policy makers toward misinformation in the media"
                 ],
-                "answer": "B"
+                "answer": ["C"]
               },
               {
                 "id": 30,
-                "questionText": "What point does the writer make about regulation in the USA?",
+                "questionText": "30. What point does the writer make about regulation in the USA?",
                 "options": [
                   "A. Regulation has reduced the publication of misinformation.",
                   "B. The regulatory bodies oppose new rules on prescription drugs.",
                   "C. The USA has more regulation than most other countries.",
                   "D. Regulation fails to prevent misinformation appearing in the media."
                 ],
-                "answer": "D"
+                "answer": ["D"]
               }
             ]
           },
           {
-            "partTitle": "Questions 31–35",
+            "partTitle": "Questions 31–36",
             "type": "html_template",
-            "instructions": "Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer.",
-            "html_template": "<h3>What happens when people encounter misinformation?</h3>\n<p>Although people have <strong>31</strong> [BLANK_31] to misinformation, there is debate about precisely when and how we learn something as true or untrue. The philosophers Descartes and Spinoza had <strong>32</strong> [BLANK_32] about how people engage with information. While Descartes believed that people accept or reject information after considering whether it is true or not, Spinoza argued that people accept information they encountered (and by default misinformation) and did not verify or reject it until afterwards. Moreover, Spinoza believed that a distinct <strong>33</strong> [BLANK_33] is involved when people assess information and its truth: experimental studies found support for Spinoza's theory and it would appear that people accept information by default; later they increasingly question it after exposure to <strong>34</strong> [BLANK_34]. This is consistent with the fact that the <strong>35</strong> [BLANK_35] in the brain associated with comprehension and resources for truth assessment are located in different locations.</p>",
+            "instructions": "Complete the summary below. Choose <strong>ONE WORD ONLY</strong> from the passage for each answer. <br> <strong>A</strong> constant conflict &nbsp;&nbsp;&nbsp;&nbsp; <strong>B</strong> additional evidence &nbsp;&nbsp;&nbsp;&nbsp; <strong>C</strong> different locations <br> <strong>D</strong> experimental subjects &nbsp;&nbsp;&nbsp;&nbsp; <strong>E</strong> short period &nbsp;&nbsp;&nbsp;&nbsp; <strong>F</strong> extreme distrust <br> <strong>G</strong> frequent exposure &nbsp;&nbsp;&nbsp;&nbsp; <strong>H</strong> mental operation &nbsp;&nbsp;&nbsp;&nbsp; <strong>I</strong> dubious reason <br> <strong>J</strong> different idea",
+            "html_template": "<h3>What happens when people encounter misinformation?</h3>\n<p>Although people have <strong>31</strong> [BLANK_31] to misinformation, there is debate about precisely when and how we learn something as true or untrue. The philosophers Descartes and Spinoza had <strong>32</strong> [BLANK_32] about how people engage with information. While Descartes believed that people accept or reject information after considering whether it is true or not, Spinoza argued that people accept information they encountered (and by default misinformation) and did not verify or reject it until afterwards. Moreover, Spinoza believed that a distinct <strong>33</strong> [BLANK_33] is involved in these stages. Recent research has provided <strong>34</strong> [BLANK_34] for Spinoza's theory and it would appear that people accept all encountered information as if it were true, even if this is for an extremely <strong>35</strong> [BLANK_35],and do not label the information as true or false until later. This is consistent with the fact that the resources for scepticism and the resources for perceiving and encoding are in <strong>36</strong> [BLANK_36] in the brain.</p>",
             "questions": [
+              
               {
-                "id": 31
+                "id": 31, "answer": ["G"]
               },
               {
-                "id": 32
+                "id": 32, "answer": ["J"]
               },
               {
-                "id": 33
+                "id": 33, "answer": ["H"]
               },
               {
-                "id": 34
+                "id": 34, "answer": ["B"]
               },
               {
-                "id": 35
+                "id": 35, "answer": ["E"]
+              },
+              {
+                "id": 36, "answer": ["C"]
               }
             ]
+            
           },
           {
-            "partTitle": "Questions 36–40",
+            "partTitle": "Questions 37–40",
             "type": "single_question_list",
             "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?<br>Write <strong>YES</strong>, <strong>NO</strong> or <strong>NOT GIVEN</strong>.",
             "questions": [
               {
-                "id": 36,
-                "questionText": "Campaigns designed to correct misinformation will fail to achieve their purpose if people are unable to understand them.",
-                "options": [
-                  "YES",
-                  "NO",
-                  "NOT GIVEN"
-                ],
-                "answer": "YES"
-              },
-              {
                 "id": 37,
-                "questionText": "Attempts to teach elementary school students about misinformation have been opposed.",
+                "questionText": "37. Campaigns designed to correct misinformation will fail to achieve their purpose if people are unable to understand them.",
                 "options": [
                   "YES",
                   "NO",
                   "NOT GIVEN"
                 ],
-                "answer": "NOT GIVEN"
+                "answer": ["YES"]
               },
               {
                 "id": 38,
-                "questionText": "It may be possible to overcome the problem of misinformation in a relatively short period.",
+                "questionText": "38. Attempts to teach elementary school students about misinformation have been opposed.",
                 "options": [
                   "YES",
                   "NO",
                   "NOT GIVEN"
                 ],
-                "answer": "NO"
+                "answer": ["NOT GIVEN"]
               },
               {
                 "id": 39,
-                "questionText": "The need to keep up with new information is hugely exaggerated in today’s world.",
+                "questionText": "39. It may be possible to overcome the problem of misinformation in a relatively short period.",
                 "options": [
                   "YES",
                   "NO",
                   "NOT GIVEN"
                 ],
-                "answer": "NO"
+                "answer": ["NO"]
               },
               {
                 "id": 40,
-                "questionText": "People should focus on improving their critical thinking rather than using any single one-time remedy.",
+                "questionText": "40. The need to keep up with new information is hugely exaggerated in today’s world.",
                 "options": [
                   "YES",
                   "NO",
                   "NOT GIVEN"
                 ],
-                "answer": "YES"
+                "answer": ["NOT GIVEN"]
               }
             ]
           }
