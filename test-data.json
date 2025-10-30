@@ -97,7 +97,7 @@
                 "id": 11,
                 "type": "single_question_list",
                 "instructions": "Choose the correct letter, A, B or C.",
-                "questionText": "During the visit to Malatte, in France, members especially enjoyed",
+                "questionText": "11. During the visit to Malatte, in France, members especially enjoyed",
                 "options": [
                   "A. going to a theme park.",
                   "B. experiencing a river trip.",
@@ -109,7 +109,7 @@
                 "id": 12,
                 "type": "single_question_list",
                 "instructions": "Choose the correct letter, A, B or C.",
-                "questionText": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
+                "questionText": "12. What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
                 "options": [
                   "A. A tree will be planted.",
                   "B. A garden seat will be bought.",
@@ -121,7 +121,7 @@
                 "id": 13,
                 "type": "single_question_list",
                 "instructions": "Choose the correct letter, A, B or C.",
-                "questionText": "Which event raised most funds this year?",
+                "questionText": "13. Which event raised most funds this year?",
                 "options": [
                   "A. the film show",
                   "B. the pancake evening",
@@ -133,7 +133,7 @@
                 "id": 14,
                 "type": "single_question_list",
                 "instructions": "Choose the correct letter, A, B or C.",
-                "questionText": "For the first evening with the French visitors host families are advised to",
+                "questionText": "14. For the first evening with the French visitors host families are advised to",
                 "options": [
                   "A. take them for a walk round the town.",
                   "B. go to a local restaurant.",
@@ -145,7 +145,7 @@
                 "id": 15,
                 "type": "single_question_list",
                 "instructions": "Choose the correct letter, A, B or C.",
-                "questionText": "On Saturday evening there will be the chance to",
+                "questionText": "15. On Saturday evening there will be the chance to",
                 "options": [
                   "A. listen to a concert.",
                   "B. watch a match.",
@@ -797,7 +797,7 @@
           {
             "partTitle": "WRITING TASK 1",
             "instructions": "You should spend about 20 minutes on this task.<br>The graph below gives information on the numbers of participants for different activities at one social centre in Melbourne, Australia for the period 2000 to 2020.<br>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.<br>Write at least 150 words.",
-            "image": "images/writing_task1_cam19_t1.png",
+            "image": "images/writing_task1_cam19_1.png",
             "questions": [
               {
                 "id": 1,
